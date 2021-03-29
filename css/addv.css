@@ -1,0 +1,86 @@
+.leftpart {
+  background-image: url("../img/pice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+}
+.rightpart {
+  height: 600px;
+}
+#logo {
+  height: 50px;
+  width: 80px;
+  
+}
+#title {
+  margin-top: 280px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#vie {
+  color:  rgb(26, 221, 189);
+}
+#test {
+  background-color: rgb(30, 55, 124);
+  opacity: 80%;
+  margin-top: 80px;
+  height: 400px;
+  width: 50vw;
+  z-index: 1;
+  margin-left: -90px;
+  border-radius: 15px;
+}
+.inp {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.area {
+  width: 40vw;
+  color: white;
+}
+.form-row {
+  margin-top: 4vw;
+}
+.f1 {
+  margin-top: 3vw;
+}
+.btn{
+ background-color: rgb(26, 221, 189);
+}
+.text-info{
+  color: brown;
+}
+#a1{
+color:  rgb(32, 32, 145);
+}
+#a2{
+  color: rgb(32, 32, 145);
+}
+#a3{
+    color:  rgb(32, 32, 145);
+}
+#a4{
+  color: rgb(32, 32, 145);
+}
+.nav-item::after{
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background:  rgb(26, 221, 189);
+  transition: width 1s; 
+}
+.nav-item:hover::after{
+  width:100%;
+  transition: width .3s;
+  color: black;
+}

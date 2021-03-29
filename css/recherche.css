@@ -1,0 +1,65 @@
+h1 {
+  font-weight: bold;
+  margin-top: 100px;
+  color: rgb(35, 49, 129);
+}
+span {
+  color:  rgb(26, 221, 189);
+}
+#logo2 {
+  height: 50px;
+  width: 80px;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#t1 {
+  color: rgb(45, 26, 155);
+}
+#t2 {
+  color: rgb(45, 26, 155);
+}
+#t3 {
+  color: rgb(45, 26, 155);
+}
+#t4 {
+  color: rgb(45, 26, 155);
+}
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: rgb(26, 221, 189);
+  transition: width 1s;
+}
+.nav-item:hover::after {
+  width: 113px;
+  transition: width 0.3s;
+  color: black;
+}
+.form-control {
+  border-radius: 30px;
+}
+.input-group-text {
+  border-radius: 30px;
+}
+.input-group {
+  margin-top: 20px;
+}
+.glyphicon {
+  color: rgb(35, 49, 129);
+}
+#sujet {
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(56, 68, 136);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+.lien {
+  color: white;
+}

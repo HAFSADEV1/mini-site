@@ -1,0 +1,71 @@
+#top{
+    width: 100%;
+    height: 100%;  
+    background-image: url("../img/Group\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 22px;
+   
+      
+}
+
+#logo2{
+    height: 50px;
+    width: 80px;
+    
+}
+.navbar-toggler {
+  position:absolute;
+  right: 10px;
+  top: 10px;
+}
+.carousel{
+    margin-top: 158px;
+}
+.carousel-item{
+    height: 114px;
+}
+.text-white{
+   font-weight: bold;
+}
+
+.nav-item::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: rgb(26, 221, 189);
+    transition: width 1s; 
+}
+.nav-item:hover::after{
+    width: 113px;
+    transition: width .3s;
+    color: black;
+}
+span{
+    color:  rgb(26, 221, 189);
+}
+
+#linge{
+    position: absolute;
+   
+}
+.fa{
+    color: white;
+    width: 20px;
+    height: 20px;
+
+}
+.glyphicon{
+    color: white;
+}
+.foote{
+   margin-top: 200px;
+    
+}
+.text-light{
+    font-weight: bold;
+}
+
+
