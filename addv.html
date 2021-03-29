@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/addv.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 leftpart">
+                <a href="index.html"><img src="./img/VVV.png" alt="Logo" id="logo"></a>
+                <h1 id="title">Ajouter <br> Une <span id="vie">Vielle</span></h1>
+            </div>
+            <div class="col-6 rightpart">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="#x" data-toggle="collapse" class="navbar-toggler">
+                      <span class=" navbar-toggler-icon "></span>
+                      </a>
+                     <div id="x" class="  collapse navbar-collapse justify-content-center ">
+                       <ul class=" navbar-nav ">
+                         <li  class="nav-item m-2"><a class="nav-link " id="a1" href="index.html">Accueil</a></li>
+                         <li class=" nav-item m-2"><a class="nav-link " id="a2" href="addv.html">Ajouter Une Veille </a></li>
+                         <li class=" nav-item m-2"><a class="nav-link " id="a3" href="list.html">Liste Les Veilles</a></li>
+                         <li class=" nav-item m-2"><a class="nav-link " id="a4" href="recherche.html">Explroe</a></li>
+                       </ul>
+                     </div>  
+                   </nav> 
+                
+                    <form class="text-center" id="test" action="http://localhost:4000/myform" method="GET">
+                        <div class="form-row">
+                          <div class="form-group col-md-6 f1">
+                            <input class="inp" id="inputEmail4" type="date" placeholder="Date Expose" name="dateExpose">
+                          </div>
+                          <div class="form-group col-md-6 f1">
+                            <input class="inp" id="inputEmail4" placeholder="Sujet" name="sujet">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <input class="inp" id="inputEmail4" placeholder="Tags" name="tags">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <input class="inp" id="inputEmail4" placeholder="lien" name="lien">
+                            </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="form-group col-md-12 area">
+                                <textarea class="inp area" placeholder="Membres" name="membres" ></textarea>
+                              </div>
+                          </div>
+                        <button type="submit" class="btn">Ajouter</button>
+                      </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+</body>
+</html>
